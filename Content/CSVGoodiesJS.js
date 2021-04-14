@@ -25,4 +25,9 @@ from weapons to power ups that the Player can pick up.
  | Hud Scale                | Float     | How big the goodie appears on the HUD when you pick it up before disapearing |
  | Hud Scale Special EUK    | Float     | ??? |
 
+As an example, let's say we have this line in the csv file
+
+<note> coring charge,GWDMgrenade,8.0,5.0,5.0,SFHUammo,SFHUweapon,none,none,none,none,3.0,0.0, </note>
+
+In this table, "coring charge" is the goodie name, followed by "GWDMgrenade", the mesh name. The table above correspsonds to each entry in order.
 `;
