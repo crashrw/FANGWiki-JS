@@ -1,0 +1,306 @@
+
+/* init stuff */
+@font-face {
+    font-family: 'FuturaXK';
+    src: url('./Fonts/FUTURAXK.ttf');
+}
+
+h1, h2, h3, h4, h5, tr table {
+    font-family: FuturaXK;
+}
+
+p, li, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+hr {
+    border-color: #0005;
+}
+
+#MAICON {
+    display: block;
+    max-width: 100%;
+    margin: 5px 5px;
+}
+
+/* Styling for custom elements */
+note {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #08f;
+    border: dashed 3px #08f;
+    background-color: #08f1;
+    display:block;
+    padding: 16px;
+}
+
+note::before {
+    content: "Note";
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display:block;
+}
+
+warning {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #800;
+    border: dashed 3px #800;
+    background-color: #8001;
+    display:block;
+    padding: 16px;
+}
+
+warning::before {
+    content: "Warning";
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display:block;
+}
+
+bug {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #085;
+    border: dashed 3px #085;
+    background-color: #0851;
+    display:block;
+    padding: 16px;
+}
+
+bug::before {
+    content: "Bug";
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display:block;
+}
+
+#toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    background-color: #222;
+    z-index: 1000;
+    display: flex;
+}
+
+#title {
+    font-size: 30px;
+    font-family: FuturaXK;
+    margin: 0;
+    padding: 5;
+    color: #fff;
+}
+
+/* This is the default format used for pages, 
+   can be overridden if needed */
+#content {
+    position: absolute;
+    top: 48px;
+    left: 250px;
+    right: 0px;
+    padding: 0px 25px;
+}
+
+#content table {
+    margin: 32px auto;
+    border-collapse: collapse;
+}
+
+#content th {
+    padding: 8px 8px;
+    border: 1px solid #6ae;
+    background-color: #9be;
+    color:black;
+}
+
+#content td {
+    padding: 6px 13px;
+    border: 1px solid #6ae;
+    background-color: #9be1;
+}
+
+#content a:link, a:visited {
+    color:#4af;
+    font-weight: bold;
+}
+
+#content video, img {
+    display: block;
+    max-width: 100%;
+    margin: 16px auto;
+}
+
+#content code {
+    display: block;
+    background-color: #2f323b;
+    border-radius: 2px;
+    padding: 16px 16px;
+}
+
+/* Formatting section for the sidebar tables */
+#sidebar {
+    position:fixed;
+    top: 48px;
+    left: 0px;
+    bottom: 0px;
+    width: 250px;
+    display: block;
+    background-color: #444;
+    color: #ddd;
+    transition: padding 2.0s ease-out;
+}
+
+#sidebar summary {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar details {
+    display: block;
+    padding: 4px;
+    cursor: pointer;
+    height: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.2s ease-out, margin 0.5s ease-out;
+    padding-bottom: 0px;
+}
+
+#sidebar details:hover {
+    background-color: #4ce7;
+}
+
+#sidebar details summary:first-of-type {
+    list-style-type: none;
+}
+
+#sidebar details[open] {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0002;
+    cursor: pointer;
+    border-radius: 4px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    height: auto;       /* For collapsible sidebar */
+}
+
+#sidebar ul, #sidebar li {
+    margin: 0px;
+    padding: 2px;
+    list-style: none;
+}
+
+#sidebar a {
+    display: block;
+}
+
+#sidebar a:link {
+    color:#ddd;
+}
+
+#sidebar a:visited{
+    color:#ddd;
+}
+
+#sidebar li:nth-child(odd) { background: #ddd2; }
+
+/* This MUST come after li:nth-child for hover highlighting to work */
+#sidebar li:hover {
+    background-color: #4ce7;
+}
+
+.sectionHeader {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.section {
+    list-style: none;
+}
+
+/* Basically mobile mode stuff  */
+@media screen and (max-width: 780px) {
+    #sidebar {
+        visibility: hidden;
+    }
+
+    #sidebar.visible {
+        visibility: visible;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: auto;
+    }
+    #content {
+        left: 0px;
+    }
+}
+
+/* If the user has a dark mode preference, respect it */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #262931;
+        color:#ddd;
+    }
+    
+    #toolbar {
+        background-color: #1b1d22;
+    }
+    
+    #sidebar {
+        background-color: #2f323b;
+    }
+
+    hr {
+        border-color: #fff5;
+    }
+    
+    note {
+        color: #4af;
+        border: dashed 3px #4af;
+        background-color: #4af1;
+    }
+    
+    warning {
+        color: #f44;
+        border: dashed 3px #f44;
+        background-color: #f441;
+    }
+    
+    bug {
+        color: #8f4;
+        border: dashed 3px #8f4;
+        background-color: #8f41;
+    }
+}

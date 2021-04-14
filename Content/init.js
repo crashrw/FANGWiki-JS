@@ -1,0 +1,45 @@
+// Pages are js files containing a var that holds all the text for a page
+// This file loads all those js files into index.html on init
+
+var sidebarPages = {
+    "File_Formats":[
+        {"name":"Mst", "prettyName":"Mst"},
+        {"name":"Ape", "prettyName":"Ape"},
+        {"name":"Wld", "prettyName":"Wld"},
+        {"name":"Csv", "prettyName":"Csv"},
+        {"name":"Gt", "prettyName":"Gt"},
+        {"name":"Mtx", "prettyName":"Mtx"},
+        {"name":"Dds", "prettyName":"Dds"},
+        {"name":"Fpr", "prettyName":"Fpr"},
+        {"name":"Sma", "prettyName":"Sma"},
+        {"name":"Rdg", "prettyName":"Rdg"},
+        {"name":"Sfb", "prettyName":"Sfb"},
+        {"name":"Wvs", "prettyName":"Wvs"},
+        {"name":"Wvb", "prettyName":"Wvb"},
+        {"name":"Bik", "prettyName":"Bik"},
+        {"name":"Blt", "prettyName":"Blt"},
+        {"name":"Pss", "prettyName":"Pss"},
+        {"name":"Rdx", "prettyName":"Rdx"}
+    ],
+    "CSV_Reference":[
+        {"name":"csvOverview", "prettyName":"Overview"},
+        {"name":"CSVGoodies", "prettyName":"Goodies.csv"}
+    ],
+    "Multiplayer":[
+        {"name":"mpHill",   "prettyName":"Multiplayer Hills"}
+    ],
+    "Wiki":[
+        {"name":"Markdown",   "prettyName":"Markdown"},
+        {"name":"addPage",    "prettyName":"How to add a new page"},
+        {"name":"editPage",   "prettyName":"How to edit an existing page"},
+        {"name":"toDo",      "prettyName":"To Do Tasks For The Wiki"}
+    ],
+    "TO_BE_CATEGORIZED":[
+        {"name":"lvlNames",         "prettyName":"Level Names"},
+        {"name":"goodies",          "prettyName":"Goodies"},
+        {"name":"shaders",          "prettyName":"Shaders"},
+        {"name":"CellsPortals",     "prettyName":"Cells & Portals"},
+        {"name":"EntityProperties", "prettyName":"Entity Properties"},
+        {"name":"projectedtexture", "prettyName":"Projected Textures"}
+    ]
+}

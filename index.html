@@ -1,0 +1,101 @@
+
+<!-- INIT all scripts here besides dynamic page scripts -->
+<script src="./Content/init.js"></script>
+<script src="./JS/showdown.min.js"></script>
+
+<script>
+    let myScript;                           // Neccessary to declare for something I already forgot about
+    var indexJS = "./Content/WelcomeJS.js"  // Page we are loading on startup, put into a var so vscode shuts up about having string in HTML
+</script>
+
+<head>
+    <title>FANG Engine Technical Wiki</title>
+    <link href="favicon.ico">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="pageInit()">
+    
+    <div id= "toolbar">
+        <img src="./Images/moddingdiscordicon.png" id = "MAICON">
+        <a id="title" href= "" onclick = setLocalStorage(indexJS);> 
+            FANG Engine Technical Wiki
+        </a>
+    </div>
+
+    <!-- Sidebar content is dynamically created in here -->
+    <div id = "sidebar">
+        <div id = "sections">
+            <div class = "sectionHeader">
+                Sidebar
+            </div>
+        </div>   
+    </div>
+
+    <!-- Page content is dynamically created in here -->
+    <div id= "content"></div>
+
+</body>
+
+<script>
+    function pageInit() {
+        // Determine the hash / "page" we are on
+        var url = window.location.href;
+        var hash = url.substring(url.indexOf("#")+1);
+        console.log("HASH = " + hash);
+        if (hash.indexOf(".html") > -1) {
+            console.log ("We're at index page");
+            var text = "./Content/WelcomeJS.js"
+        }
+        else
+            var text = "./Content/" + hash + "JS.js"
+
+        setLocalStorage(text)
+    }
+
+    function setLocalStorage(arg) {
+        let myScript = document.createElement("script");
+        myScript.setAttribute("src", arg);
+        myScript.async = false;
+
+        let head = document.head;
+        head.insertBefore(myScript, head.firstElementChild)
+        setTimeout(() => bs(text), 10)
+        // B/C javascript is SUCH a great language it does everything asyncronously
+        // HOWEVER, we want to do things syncronously, so we're bs'ing it by telling
+        // this function to wait for x ms for the script to load before changing      
+    }  
+
+    function bs(text) {
+        console.log(myScript);
+        text = text.substring(1, text.length-1);
+        //console.log(word);
+        var converter = new showdown.Converter();
+        converter.setOption('tables', 'true');
+        var html = converter.makeHtml(text);
+        document.getElementById("content").innerHTML = html;
+    }
+</script>
+
+<script>
+    for (var i = 0; i < Object.keys(sidebarPages).length; i++) {
+        
+        var tableName = (Object.keys(sidebarPages)[i]);
+        console.log (tableName);
+
+        document.getElementById("sections").innerHTML +=
+        "<details> <summary>" + tableName + "</summary>" +
+        "<ul class = section, id = " + tableName + ">" + "</details>";
+
+        for (var j = 0; j < sidebarPages[tableName].length; j++) {
+            console.log(sidebarPages[tableName][j]["name"]);
+            document.getElementById(tableName).innerHTML +=
+            "<li> <a href=#" + sidebarPages[tableName][j]["name"] + 
+            " onclick = setLocalStorage(`./Content/" + sidebarPages[tableName][j]["name"] + "JS.js`);> " + 
+            sidebarPages[tableName][j]["prettyName"] + "</a>" +
+            "</li>";
+        }
+        console.log(sidebarPages[tableName].length);
+    }
+</script>
