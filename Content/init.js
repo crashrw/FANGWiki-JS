@@ -22,8 +22,12 @@ var sidebarPages = {
         {"name":"Rdx", "prettyName":"Rdx"}
     ],
     "CSV_Reference":[
-        {"name":"csvOverview", "prettyName":"Overview"},
-        {"name":"CSVGoodies", "prettyName":"Goodies.csv"}
+        
+		{"name":"csvOverview", "prettyName":"Overview"},
+        {"name":"csvCamData", "prettyName":"B_Cam_Data.csv"},
+		{"name":"CSVGoodies", "prettyName":"Goodies.csv"},
+		{"name":"csvitemlist", "prettyName":"Itemlist.csv"}
+	
     ],
     "Multiplayer":[
         {"name":"mpHill",   "prettyName":"Multiplayer Hills"}
