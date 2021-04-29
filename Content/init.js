@@ -19,7 +19,8 @@ var sidebarPages = {
         {"name":"Bik", "prettyName":"Bik"},
         {"name":"Blt", "prettyName":"Blt"},
         {"name":"Pss", "prettyName":"Pss"},
-        {"name":"Rdx", "prettyName":"Rdx"}
+        {"name":"Rdx", "prettyName":"Rdx"},
+        {"name":"Fnt", "prettyName":"Fnt"}
     ],
     "CSV_Reference":[
         
