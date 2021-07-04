@@ -19,7 +19,7 @@ is a good reference for what is possible.
 and I don't know how to fix this as of writting this. If you are using a special char
 and it is not showing up in the page, try adding \\\\\\  or \\\\ before
 the char or chars in question. Also if you are trying to embed code in a page,
-it must be prefixed with a tab space. </warning>
+it must be prefixed with a tab space or encapsulated in < code >Your Code< /code >. </warning>
 
 To see your changes in the wiki, you must now edit init.js within the Content folder.
 The init.js file contains a var called sidebarPages which is esentially as json file. 

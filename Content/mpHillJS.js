@@ -12,12 +12,12 @@ for the collision mesh used for determining when a player in standing in the hil
 To set up a multiplayer hill in a wld file, there are two entities placed
 one on top of each other. The hill you see in game has a special name set up in it's gamedata like
 
-    name = HillVisXX
+<code>name = HillVisXX</code>
 
 where XX is subsituted for a # like 00, 01, etc\\... The collision of the hill is a
 seperate entity that similarily has a specified name in it's gamedata set up like
 
-    name = HillXX
+<code>name = HillXX</code>
     
 where XX is subsituted for a # like 00, 01, etc\\... The collision and visual mesh entities
 are linked together when they share the same matching # in the suffix of their name property

@@ -9,7 +9,7 @@ var sidebarPages = {
         {"name":"Csv", "prettyName":"Csv"},
         {"name":"Gt", "prettyName":"Gt"},
         {"name":"Mtx", "prettyName":"Mtx"},
-        {"name":"Dds", "prettyName":"Dds"},
+        {"name":"Tga", "prettyName":"Tga"},
         {"name":"Fpr", "prettyName":"Fpr"},
         {"name":"Sma", "prettyName":"Sma"},
         {"name":"Rdg", "prettyName":"Rdg"},
@@ -45,6 +45,8 @@ var sidebarPages = {
         {"name":"shaders",          "prettyName":"Shaders"},
         {"name":"CellsPortals",     "prettyName":"Cells & Portals"},
         {"name":"EntityProperties", "prettyName":"Entity Properties"},
-        {"name":"projectedtexture", "prettyName":"Projected Textures"}
+        {"name":"projectedtexture", "prettyName":"Projected Textures"},
+        {"name":"fangEngine",       "prettyName":"FANG Engine"},
+        {"name":"metalArms",        "prettyName":"Metal Arms: Glitch in the System"}
     ]
 }

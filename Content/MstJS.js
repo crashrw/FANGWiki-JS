@@ -15,13 +15,6 @@ PASM can take this file and use it as a reference for how to "optimize" the MST.
 This process also "locks" it to prevent further modifications. You can "unlock" the mst
 however it undos the optimization.
 
-Crashz Notes:
-- XB    36 bytes
-- XB E3 32 bytes    
-- GC    36 bytes
-- PS2   40 bytes
-
-
 ##Tools
 ___
 

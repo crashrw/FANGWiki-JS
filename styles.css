@@ -125,16 +125,20 @@ bug::before {
     border-collapse: collapse;
 }
 
+#content table:hover {
+    box-shadow: 0px 0px 0px 5px #125c60;
+    transition: box-shadow .25s;
+}
+
 #content th {
     padding: 8px 8px;
-    border: 1px solid #6ae;
-    background-color: #9be;
-    color:black;
+    border: 1px solid #9be6;
+    background-color: #9be3;
 }
 
 #content td {
     padding: 6px 13px;
-    border: 1px solid #6ae;
+    border: 1px solid #9be6;
     background-color: #9be1;
 }
 
@@ -151,9 +155,22 @@ bug::before {
 
 #content code {
     display: block;
-    background-color: #2f323b;
+    background-color: #1c2126;
     border-radius: 2px;
     padding: 16px 16px;
+}
+
+#content dt {
+    background-color: #1c2126;
+    padding: .1em .2em;
+    font-family: "Fira Code",Menlo,Consolas,Monaco,monospace;
+}
+
+#content metabox {
+    float: right;
+    max-width: 500px;
+    background-color: #9be1;
+    border: 2px solid #9be6;
 }
 
 /* Formatting section for the sidebar tables */

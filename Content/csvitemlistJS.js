@@ -4,31 +4,31 @@ ___
 
 The itemlist.csv file controls the display functions of the player's inventory. It has a wide variety of functions, which are layed out in the table below
 
- | Table Property           | Data Type | Description |
- | ------------------------ | --------- | ----------- |
- | Code Name                | String    | Unique identifier used by game to access the entry |
- | Access Name				| String	| The internal name of the item as referenced by game code |
- | Display Name				| Wide String	| The item's name as shown in the HUD/Inventory |
- | Long Description         | Wide String   | The items description as shown in the HUD/Inventory           |
- | Upgrade Text             | Wide String    | Whether or not "Upgradeable" will show under the item in the HUD |
- | Upgrade Weapon           | String     | Tag of weapon this gun will upgrade to                         |
- | Tga File           	    | String    | Tag of the texture the weapon icon is found on                  |
- | Mesh File                | String    | Tag of the mesh this item will use			                  |
- | S1 Left Coord			| Float		| Texture coordinate left										  |
- | T1 Top Coord				| Float		| Texture coordinate top										  |
- | S2 Right Coord			| Float		| Texture coordinate right										  |
- | T2 Bottom Coord 			| Float		| Texture coordinate bottom										  |
- | Inventory X Position		| Int		| X Position (in 3d space) of item in inventory screen			  |
- | Inventory Y Position		| Int		| Y position (in 3d space) of item in inventory screen			  |
- | Current EUK Level		| Int 		| Current EUK Level (0 if not applicable)						  |
- | Maximum EUK Level		| Int		| Max EUK Level (0 if not applicable)							  |
- | Primary Weapon Flag		| Int		| Is this a primary weapon? (1=yes; 0=no)						  |
- | Secondary Weapon Flag	| Int		| Is this a secondary weapon? (1=yes; 0=no)						  |
- | Item ID					| Int		| >31 if not weapon, <=31 if a weapon							  |
- | Z Offset					| Float		| Translate the objects mesh verticaly by this amount to have the origin through the axis of rotation |
- | Scale Factor				| Float		| Scale mesh by this factor when displaying						  |
- | Pitch Angle				| Float		| Pitch item by this amount after y rotation					  |
- | Poster Mesh				| Int		| Whether or not this item is camera facing						  |
+ | Table Property           |     Data Type         |                                         Description                                                 |
+ | ------------------------ | --------------------- | --------------------------------------------------------------------------------------------------- |
+ | Code Name                | <dt>String</dt>       | Unique identifier used by game to access the entry                                                  |
+ | Access Name				      | <dt>String</dt>	      | The internal name of the item as referenced by game code                                            |
+ | Display Name				      | <dt>Wide String</dt>  | The item's name as shown in the HUD/Inventory                                                       |
+ | Long Description         | <dt>Wide String</dt>  | The items description as shown in the HUD/Inventory                                                 |
+ | Upgrade Text             | <dt>Wide String</dt>  | Whether or not "Upgradeable" will show under the item in the HUD                                    |
+ | Upgrade Weapon           | <dt>String</dt>       | Tag of weapon this gun will upgrade to                                                              |
+ | Tga File           	    | <dt>String</dt>       | Tag of the texture the weapon icon is found on                                                      |
+ | Mesh File                | <dt>String</dt>       | Tag of the mesh this item will use			                                                            |
+ | S1 Left Coord			      | <dt>Float</dt>		    | Texture coordinate left										                                                          |
+ | T1 Top Coord				      | <dt>Float</dt>		    | Texture coordinate top										                                                          |
+ | S2 Right Coord			      | <dt>Float</dt>		    | Texture coordinate right										                                                        |
+ | T2 Bottom Coord 			    | <dt>Float</dt>		    | Texture coordinate bottom										                                                        |
+ | Inventory X Position	  	| <dt>Int</dt>		      | X Position (in 3d space) of item in inventory screen			                                          |
+ | Inventory Y Position	  	| <dt>Int</dt>		      | Y position (in 3d space) of item in inventory screen			                                          |
+ | Current EUK Level	    	| <dt>Int</dt> 		      | Current EUK Level (0 if not applicable)						                                                  |
+ | Maximum EUK Level	    	| <dt>Int</dt>		      | Max EUK Level (0 if not applicable)							                                                    |
+ | Primary Weapon Flag		  | <dt>Int</dt>		      | Is this a primary weapon? (1=yes; 0=no)						                                                  |
+ | Secondary Weapon Flag	  | <dt>Int</dt>		      | Is this a secondary weapon? (1=yes; 0=no)					                                                  |
+ | Item ID					        | <dt>Int</dt>		      | >31 if not weapon, <=31 if a weapon							                                                    |
+ | Z Offset					        | <dt>Float</dt>		    | Translate the objects mesh verticaly by this amount to have the origin through the axis of rotation |
+ | Scale Factor				      | <dt>Float</dt>		    | Scale mesh by this factor when displaying						                                                |
+ | Pitch Angle				      | <dt>Float</dt>		    | Pitch item by this amount after y rotation					                                                |
+ | Poster Mesh				      | <dt>Int</dt>		      | Whether or not this item is camera facing						                                                |
  
  
  Example Entry (with comments)
