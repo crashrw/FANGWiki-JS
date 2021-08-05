@@ -44,7 +44,7 @@ var sidebarPages = {
     ],
     "TO_BE_CATEGORIZED":[
         {"name":"lvlNames",         "prettyName":"Level Names"},
-        {"name":"goodies",          "prettyName":"Goodies"},
+        {"name":"Goodies",          "prettyName":"Goodies"},
         {"name":"shaders",          "prettyName":"Shaders"},
         {"name":"CellsPortals",     "prettyName":"Cells & Portals"},
         {"name":"EntityProperties", "prettyName":"Entity Properties"},
