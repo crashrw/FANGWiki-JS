@@ -23,23 +23,23 @@ will be "spew L3".
 
 |               Icon                     |            Weapon             |  Goodie Name  |
 | -------------------------------------- | ----------------------------- | ------------- |
-| ![Link](./Images/Goodies/blaster.png)  | Scatter Blaster               | blaster	 |
-| ![Link](./Images/Goodies/cleaner.png)  | Cleaner 		         | cleaner	 |
-|                                        | EMP 		                 | emp grenade   |
-| ![Link](./Images/Goodies/flamer.png)   | Toaster 		         | flamer	 |
-| ![Link](./Images/Goodies/coring.png)   | Coring Charge 	         | coring charge |
-| ![Link](./Images/Goodies/laser.png)    | Mining Laser 	         | laser	 |
+| ![Link](./Images/Goodies/blaster.png)  | Scatter Blaster               | blaster	     |
+| ![Link](./Images/Goodies/cleaner.png)  | Cleaner 		                 | cleaner	     |
+|                                        | EMP 		                     | emp grenade   |
+| ![Link](./Images/Goodies/flamer.png)   | Toaster 		                 | flamer	     |
+| ![Link](./Images/Goodies/coring.png)   | Coring Charge 	             | coring charge |
+| ![Link](./Images/Goodies/laser.png)    | Mining Laser 	             | laser	     |
 |                                        | Magma Bomb 	                 | magma bomb	 |
-|                                        | Slingshot   	                 | mortar	 |
+|                                        | Slingshot   	                 | mortar	     |
 | ![Link](./Images/Goodies/recruiter.png)| Recruiter Grenade 	         | recruiter 	 |
-|                                        | Rivet Gun                     | rivet 	 |
+|                                        | Rivet Gun                     | rivet 	     |
 | ![Link](./Images/Goodies/rocket.png)   | Rocket Launcher               | rlauncher 	 |
-|                                        | Scope                         | scope 	 |
-| ![Link](./Images/Goodies/spew.png)     | Spew                          | spew   	 |
+|                                        | Scope                         | scope 	     |
+| ![Link](./Images/Goodies/spew.png)     | Spew                          | spew   	     |
 | ![Link](./Images/Goodies/tether.png)   | Control Tether                | tether   	 |
 | ![Link](./Images/Goodies/wrench.png)   | Wrench                        | wrench   	 |
 | ![Link](./Images/Goodies/EUK.png)      | Equipment Upgrade Kit (EUK)   | EUK*          |
-| ![Link](./Images/Goodies/ripper.png)   | Ripper                        | ripper  	 |
+| ![Link](./Images/Goodies/ripper.png)   | Ripper                        | ripper  	     |
 
 \\* To spawn a EUK upgrade, you prefix the name with EUK, and then specify the weapon
 in question along with the level. If you wanted to spawn a level 3 rocket
@@ -53,10 +53,10 @@ for completion. </Warning>
 
 |               Icon                     |            Weapon             | Internal Name |
 | -------------------------------------- | ----------------------------- | ------------- |
-|                                        | Empty Hand 	                 | hand 	 |
-|                                        | Titan's Chaingun              | chaingun	 |
-|                                        | Predator's Laser              | quadlaser	 |
-|                                        | Elite's Staff                 | staff   	 |
+|                                        | Empty Hand 	                 | hand 	     |
+|                                        | Titan's Chaingun              | chaingun	     |
+|                                        | Predator's Laser              | quadlaser     |
+|                                        | Elite's Staff                 | staff   	     |
 
 ##Powerups
 
@@ -77,10 +77,10 @@ no purpose.
 | --------------------------------------- | ----------------------------- | ------------- |
 |                                         | Agent Goff's Head             | goffhead	  |
 |                                         | Agent Goff's Torso            | gofftorso	  |
-|                                         | Agent Goff's Legs             | goffleg	  |
-| ![Link](./Images/Goodies/chip.png)      | Blue Door Chip                | chip	  |
+|                                         | Agent Goff's Legs             | goffleg	      |
+| ![Link](./Images/Goodies/chip.png)      | Blue Door Chip                | chip	      |
 | ![Link](./Images/Goodies/secretchip.png)| Secret Chip                   | secret chip	  |
-|                                         | Washer                        | washer	  |
+|                                         | Washer                        | washer	      |
 |                                         | Gold Mega Washer              | megawasher	  |
 |                                         | Det Pack                      | Det Pack	  |
 |                                         | Arm Servo                     | arm servo*	  |
@@ -106,13 +106,13 @@ This must be tested. </bug>
 least seperate them in the same table? Something to consider. </bug>
 
 ##Bot Names
-|                     Icon                      |             Bot               | 	Bottype Name 		|
+|                     Icon                      |             Bot               | 	Bottype Name 		        |
 | --------------------------------------------- | ----------------------------- | ----------------------------- |
-|                                               | Anti Air Gun                  | botAAgun			|
-|                                               | Droid Miner                   | botblink			|
-| ![Link](./Images/Bots/botcorrosive.png)       | General Corrosive             | botcorrosive			|
-| ![Link](./Images/Bots/boteliteguard.png)      | Elite Guard                   | boteliteguard			|
-|                                               | Grunt                         | botgrunt    			|
+|                                               | Anti Air Gun                  | botAAgun			            |
+|                                               | Droid Miner                   | botblink			            |
+| ![Link](./Images/Bots/botcorrosive.png)       | General Corrosive             | botcorrosive			        |
+| ![Link](./Images/Bots/boteliteguard.png)      | Elite Guard                   | boteliteguard			        |
+|                                               | Grunt                         | botgrunt    			        |
 | ![Link](./Images/Bots/botjumper.png)          | Jump Trooper                  | botjumper           	    	|
 | ![Link](./Images/Bots/botkrunk.png)           | Krunk                         | botkrunk           	    	|
 | ![Link](./Images/Bots/botminer.png)           | Droid Miner                   | botminer           	    	|
@@ -124,18 +124,18 @@ least seperate them in the same table? Something to consider. </bug>
 |                                               | Snarq                         | botsnarq           	    	|
 | ![Link](./Images/Bots/botswarmer.png)         | Swarmer                       | botswarmer           	    	|
 | ![Link](./Images/Bots/botzombie.png)          | Zombiebot                     | botzombie           	    	|
-|                                               | Zombiebot King                | botzombieboss           	|
-|                                               | Sentry                        | SiteWeapon*           	|
+|                                               | Zombiebot King                | botzombieboss           	    |
+|                                               | Sentry                        | SiteWeapon*           	    |
 |                                               | Titan                         | bottitan           	    	|
         
 \\*(configured with "weapontype": ["floorSentry" and "wallSentry"]
 
 ##Vehicle Names
-|                     Icon                      |          Vehicle              | 	Bottype Name 		|
+|                     Icon                      |          Vehicle              | 	Bottype Name 		        |
 | --------------------------------------------- | ----------------------------- | ----------------------------- |
 | ![Link](./Images/Vehicles/vehiclerat.png)     | Rat                           | vehiclerat           	    	|
 | ![Link](./Images/Vehicles/vehiclesentinel.png)| Sentinel Tank                 | vehiclesentinel      	    	|
-|                                               | Loader                        | vehicleloader           	|
+|                                               | Loader                        | vehicleloader           	    |
 
 ##Gamedata
 Flag	Description	Example Usage
