@@ -2,18 +2,13 @@ var text = `
 #Mst File Format
 ___
 
-The **M**a**st**er (Mst) file is the archive file that stores most of the other files within the game.
-The easiest comparison is a zip of 7z file, however unlike those it offers no compression.
+The **M**a**st**er (Mst) file is the archive file that stores the majority of files within the game.
+The file can be compared to a .zip or .7z file with no compression.
 
 Mst files have the ability to be optimized to reduce load times.
 When an mst has been optimized it has become "locked".
 The process in which mst files can be optimized however is currently 
 unknown and requires more research.
-
-MA_WIN can generate an asset log to "optimize load times" for the game, 
-PASM can take this file and use it as a reference for how to "optimize" the MST.
-This process also "locks" it to prevent further modifications. You can "unlock" the mst
-however it undos the optimization.
 
 ##Tools
 ___

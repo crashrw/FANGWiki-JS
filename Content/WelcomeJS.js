@@ -2,7 +2,6 @@ var text = `
 #FANG Engine Technical Wiki
 ___
 
-#<metabox>
 ![Link](./Images/GlitchReading4.png)
 
 ##Welcome!

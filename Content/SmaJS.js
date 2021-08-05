@@ -9,6 +9,6 @@ executable of Metal Arms has a Small interpreter compiled in.
 
 Extensive testing along with R&D required.
 
-<Note> dj0wns has extensive knowledge of the sma files </Note>
+<Note> dj0wns & Crashz has extensive knowledge of the sma files </Note>
 
 `;

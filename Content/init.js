@@ -39,12 +39,16 @@ var sidebarPages = {
         {"name":"editPage",   "prettyName":"How to edit an existing page"},
         {"name":"toDo",      "prettyName":"To Do Tasks For The Wiki"}
     ],
+    "Sma_Scripting":[
+        {"name":"smaIntro",   "prettyName":"Introduction"}
+    ],
     "TO_BE_CATEGORIZED":[
         {"name":"lvlNames",         "prettyName":"Level Names"},
         {"name":"goodies",          "prettyName":"Goodies"},
         {"name":"shaders",          "prettyName":"Shaders"},
         {"name":"CellsPortals",     "prettyName":"Cells & Portals"},
         {"name":"EntityProperties", "prettyName":"Entity Properties"},
+        {"name":"Material",         "prettyName":"Materials"},
         {"name":"projectedtexture", "prettyName":"Projected Textures"},
         {"name":"fangEngine",       "prettyName":"FANG Engine"},
         {"name":"metalArms",        "prettyName":"Metal Arms: Glitch in the System"}

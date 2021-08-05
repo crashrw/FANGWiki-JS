@@ -25,16 +25,16 @@ will be "spew L3".
 | -------------------------------------- | ----------------------------- | ------------- |
 | ![Link](./Images/Goodies/blaster.png)  | Scatter Blaster               | blaster	 |
 | ![Link](./Images/Goodies/cleaner.png)  | Cleaner 		         | cleaner	 |
-| ![Link](./Images/Goodies/emp.png)      | EMP 		                 | emp grenade   |
+|                                        | EMP 		                 | emp grenade   |
 | ![Link](./Images/Goodies/flamer.png)   | Toaster 		         | flamer	 |
 | ![Link](./Images/Goodies/coring.png)   | Coring Charge 	         | coring charge |
 | ![Link](./Images/Goodies/laser.png)    | Mining Laser 	         | laser	 |
-| ![Link](./Images/Goodies/magma.png)    | Magma Bomb 	                 | magma bomb	 |
-| ![Link](./Images/Goodies/mortar.png)   | Slingshot   	                 | mortar	 |
+|                                        | Magma Bomb 	                 | magma bomb	 |
+|                                        | Slingshot   	                 | mortar	 |
 | ![Link](./Images/Goodies/recruiter.png)| Recruiter Grenade 	         | recruiter 	 |
-| ![Link](./Images/Goodies/rivet.png)    | Rivet Gun                     | rivet 	 |
-| ![Link](./Images/Goodies/rocket.png)   | Rocket Launcher               | rocket 	 |
-| ![Link](./Images/Goodies/scope.png)    | Scope                         | scope 	 |
+|                                        | Rivet Gun                     | rivet 	 |
+| ![Link](./Images/Goodies/rocket.png)   | Rocket Launcher               | rlauncher 	 |
+|                                        | Scope                         | scope 	 |
 | ![Link](./Images/Goodies/spew.png)     | Spew                          | spew   	 |
 | ![Link](./Images/Goodies/tether.png)   | Control Tether                | tether   	 |
 | ![Link](./Images/Goodies/wrench.png)   | Wrench                        | wrench   	 |
@@ -53,21 +53,21 @@ for completion. </Warning>
 
 |               Icon                     |            Weapon             | Internal Name |
 | -------------------------------------- | ----------------------------- | ------------- |
-| ![Link](./Images/Goodies/hand.png)     | Empty Hand 	                 | hand 	 |
-| ![Link](./Images/Goodies/chaingun.png) | Titan's Chaingun              | chaingun	 |
-| ![Link](./Images/Goodies/quadlaser.png)| Predator's Laser              | quadlaser	 |
-| ![Link](./Images/Goodies/staff.png)    | Elite's Staff                 | staff   	 |
+|                                        | Empty Hand 	                 | hand 	 |
+|                                        | Titan's Chaingun              | chaingun	 |
+|                                        | Predator's Laser              | quadlaser	 |
+|                                        | Elite's Staff                 | staff   	 |
 
 ##Powerups
 
 |               Icon                      |           Power Ups           |  Goodie Name  |
 | --------------------------------------- | ----------------------------- | ------------- |
-| ![Link](./Images/Goodies/Jump.png)      | High Jump                     | pup_hijump	  |
-| ![Link](./Images/Goodies/armor.png)     | Shield / Armor                | pup_armor	  |
-| ![Link](./Images/Goodies/Speed.png)     | Speed Boost                   | pup_speed	  |
+|                                         | High Jump                     | pup_hijump	  |
+|                                         | Shield / Armor                | pup_armor	  |
+|                                         | Speed Boost                   | pup_speed	  |
 | ![Link](./Images/Goodies/Energy.png)    | Health                        | pup_energy	  |
 | ![Link](./Images/Goodies/megaEnergy.png)| Mega Health                   | mega health	  |
-| ![Link](./Images/Goodies/weapon.png)    | X2 Weapon Damage              | pup_weapon	  |
+|                                         | X2 Weapon Damage              | pup_weapon	  |
 
 ##Campaign Goodies
 While these goodies can be spawned in Multiplayer, they serve
@@ -75,15 +75,15 @@ no purpose.
 
 |               Icon                      |            Goodies            |  Goodie Name  |
 | --------------------------------------- | ----------------------------- | ------------- |
-| ![Link](./Images/Goodies/goffhead.png)  | Agent Goff's Head             | goffhead	  |
-| ![Link](./Images/Goodies/gofftorso.png) | Agent Goff's Torso            | gofftorso	  |
-| ![Link](./Images/Goodies/goffleg.png)   | Agent Goff's Legs             | goffleg	  |
+|                                         | Agent Goff's Head             | goffhead	  |
+|                                         | Agent Goff's Torso            | gofftorso	  |
+|                                         | Agent Goff's Legs             | goffleg	  |
 | ![Link](./Images/Goodies/chip.png)      | Blue Door Chip                | chip	  |
 | ![Link](./Images/Goodies/secretchip.png)| Secret Chip                   | secret chip	  |
-| ![Link](./Images/Goodies/washer.png)    | Washer                        | washer	  |
-| ![Link](./Images/Goodies/megawasher.png)| Gold Mega Washer              | megawasher	  |
-| ![Link](./Images/Goodies/detpack.png)   | Det Pack                      | Det Pack	  |
-| ![Link](./Images/Goodies/armservo.png)  | Arm Servo                     | arm servo*	  |
+|                                         | Washer                        | washer	  |
+|                                         | Gold Mega Washer              | megawasher	  |
+|                                         | Det Pack                      | Det Pack	  |
+|                                         | Arm Servo                     | arm servo*	  |
 
 \\* You need to specify what level of arm servo you want to give
 the player, it ranges from 1 - 3. To give the player a level 2
@@ -108,11 +108,11 @@ least seperate them in the same table? Something to consider. </bug>
 ##Bot Names
 |                     Icon                      |             Bot               | 	Bottype Name 		|
 | --------------------------------------------- | ----------------------------- | ----------------------------- |
-| ![Link](./Images/Bots/botAAgun.png)           | Anti Air Gun                  | botAAgun			|
-| ![Link](./Images/Bots/botblink.png)           | Droid Miner                   | botblink			|
+|                                               | Anti Air Gun                  | botAAgun			|
+|                                               | Droid Miner                   | botblink			|
 | ![Link](./Images/Bots/botcorrosive.png)       | General Corrosive             | botcorrosive			|
 | ![Link](./Images/Bots/boteliteguard.png)      | Elite Guard                   | boteliteguard			|
-| ![Link](./Images/Bots/botgrunt.png)           | Grunt                         | botgrunt    			|
+|                                               | Grunt                         | botgrunt    			|
 | ![Link](./Images/Bots/botjumper.png)          | Jump Trooper                  | botjumper           	    	|
 | ![Link](./Images/Bots/botkrunk.png)           | Krunk                         | botkrunk           	    	|
 | ![Link](./Images/Bots/botminer.png)           | Droid Miner                   | botminer           	    	|
@@ -121,13 +121,13 @@ least seperate them in the same table? Something to consider. </bug>
 | ![Link](./Images/Bots/botprobe.png)           | Leech                         | botprobe           	    	|
 | ![Link](./Images/Bots/botscientist.png)       | Scientst                      | botscientist        	    	|
 | ![Link](./Images/Bots/botslosh.png)           | Slosh                         | botslosh           	    	|
-| ![Link](./Images/Bots/botsnarq.png)           | Snarq                         | botsnarq           	    	|
+|                                               | Snarq                         | botsnarq           	    	|
 | ![Link](./Images/Bots/botswarmer.png)         | Swarmer                       | botswarmer           	    	|
 | ![Link](./Images/Bots/botzombie.png)          | Zombiebot                     | botzombie           	    	|
-| ![Link](./Images/Bots/botzombieboss.png)      | Zombiebot King                | botzombieboss           	|
-| ![Link](./Images/Bots/siteweapon.png)         | Sentry                        | SiteWeapon*           	|
-| ![Link](./Images/Bots/bottian.png)            | Titan                         | bottitan           	    	|
-	
+|                                               | Zombiebot King                | botzombieboss           	|
+|                                               | Sentry                        | SiteWeapon*           	|
+|                                               | Titan                         | bottitan           	    	|
+        
 \\*(configured with "weapontype": ["floorSentry" and "wallSentry"]
 
 ##Vehicle Names
@@ -135,37 +135,36 @@ least seperate them in the same table? Something to consider. </bug>
 | --------------------------------------------- | ----------------------------- | ----------------------------- |
 | ![Link](./Images/Vehicles/vehiclerat.png)     | Rat                           | vehiclerat           	    	|
 | ![Link](./Images/Vehicles/vehiclesentinel.png)| Sentinel Tank                 | vehiclesentinel      	    	|
-| ![Link](./Images/Vehicles/vehicleloader.png)  | Loader                        | vehicleloader           	|
+|                                               | Loader                        | vehicleloader           	|
 
 ##Gamedata
 Flag	Description	Example Usage
-"Name"	Gives a name to an object for use in scripts or console linking	"name": [ controltitan
-"bottype"	determines what bot is going to spawn	"bottype": [botgrunt; bottitan; etc
-"disguisetime"	determines time (secs) before a mil realizes you have possessed a bot	"Disguisetime:" [ 21.0
-"ammo"	determines amount of ammo a weapon has. Used in "goodies"	"ammo": [ 25.0
-"spawntime"	Sets a respawn timer. Used in "goodies"	"spawntime": [ 2.0
-"ZombieStartFormed"	Used to determine that a Zombiebot starts in pieces, or formed.	"""ZombieStartFormed"": [
-        ""On"""
-"Sleeping"	Whether a placed bot starts out sleeping. True, False	"sleeping": [ True
-"DataPort"	Whether a data (posession) port should be installed on the bot.  None, Close, Open	"DataPort": [ "Open"
-"PossessDist"	Distance in feet a posessed bot can travel from posess point before link is severed	"PossessDist": [2000
-"Shield"	Titans and grunts only: Whether they have a shield. 	"Shield": [ ON
-"armorprofile"	grunts, miners, etc: relative armor resistance based on a certain bot	"armorprofile":[ Pred; Glitch; none; etc
-"ArmorModifier"	exact armor resistance	"ArmorModifier":[0.9900000095367432
-"ai_job"	determines ai behavior	"ai_job":[wait; patrol
-"goodiebag"	determines how many items a bot has/will drop	"goodiebag":[1.0, "one"
-"goodie#"	specifies the type of a numbered goodie in the goodiebag	"goodie1":[pup_energy, 1.0, 1.0, 1.0
-"vlax"	specifies whether a grunt is Vlax or not	"vlax":["true"
-"NPCWeapon0"	specifies an npc's(grunt, miner) main weapon	"NPCWeapon0":["Rocket"
-NPCWeapon1	specifies an npc's(grunt) secondary weapon, typically grenades	"NPCWeapon1":["grenade"
-"KeepLimb"	specifies which of an ai's limbs is immune to breaking	"KeepLimb":["All"; "none"
-"AI_RACE"	specifies ai allegiance	"AI_RACE":["AMBIENT"; "droid";  "good"; "bad"
-"AI_ATTACKWHO"	specifies who an ai will attack	"AI_ATTACKWHO":["PLAYERS; "NPC"; "ENEMY"
-"dropweapon"	specifies if an ai can drop its weapon(only false seems to have an effect)	"dropweapon": ["false"
-AI_Aggression	Specifies aggressiveness of Grunt	"AI_Aggression": [100
-AI_Intelligence	Specifies intelligence of Grunt	"AI_Intelligence": [100
-AI_Courage	Specifies couragesnous og Grunt	"AI_Courage": [100
-AI_ODDSOF_IGNORING_NEARBY_GRENADES	The odds of a Grunt ignoring a player's grenade	"AI_ODDSOF_IGNORING_NEARBY_GRENADES"; [ 0
-AI_PREFERSTOPANDSHOOT	Specifies if Grunt prefers to stop while shooting	"AI_PREFERSTOPANDSHOOT": ["false"
+- "Name"	Gives a name to an object for use in scripts or console linking	"name": [ controltitan
+- "bottype"	determines what bot is going to spawn	"bottype": [botgrunt; bottitan; etc
+- "disguisetime"determines time (secs) before a mil realizes you have possessed a bot	"Disguisetime:" [ 21.0
+- "ammo"	determines amount of ammo a weapon has. Used in "goodies"	"ammo": [ 25.0
+- "spawntime"	Sets a respawn timer. Used in "goodies"	"spawntime": [ 2.0
+- "ZombieStartFormed"Used to determine that a Zombiebot starts in pieces, or formed.	"""ZombieStartFormed"": [""On"""]
+- "Sleeping"	Whether a placed bot starts out sleeping. True, False	"sleeping": [ True
+- "DataPort"	Whether a data (posession) port should be installed on the bot.  None, Close, Open	"DataPort": [ "Open"
+- "PossessDist"	Distance in feet a posessed bot can travel from posess point before link is severed	"PossessDist": [2000
+- "Shield"	Titans and grunts only: Whether they have a shield. 	"Shield": [ ON
+- "armorprofile"grunts, miners, etc: relative armor resistance based on a certain bot	"armorprofile":[ Pred; Glitch; none; etc
+- "ArmorModifier"exact armor resistance	"ArmorModifier":[0.9900000095367432
+- "ai_job"	determines ai behavior	"ai_job":[wait; patrol
+- "goodiebag"	determines how many items a bot has/will drop	"goodiebag":[1.0, "one"
+- "goodie#"	specifies the type of a numbered goodie in the goodiebag	"goodie1":[pup_energy, 1.0, 1.0, 1.0
+- "vlax"	specifies whether a grunt is Vlax or not	"vlax":["true"
+- "NPCWeapon0"	specifies an npc's(grunt, miner) main weapon	"NPCWeapon0":["Rocket"
+- NPCWeapon1	specifies an npc's(grunt) secondary weapon, typically grenades	"NPCWeapon1":["grenade"
+- "KeepLimb"	specifies which of an ai's limbs is immune to breaking	"KeepLimb":["All"; "none"
+- "AI_RACE"	specifies ai allegiance	"AI_RACE":["AMBIENT"; "droid";  "good"; "bad"
+- "AI_ATTACKWHO"specifies who an ai will attack	"AI_ATTACKWHO":["PLAYERS; "NPC"; "ENEMY"
+- "dropweapon"	specifies if an ai can drop its weapon(only false seems to have an effect)	"dropweapon": ["false"
+- AI_Aggression	Specifies aggressiveness of Grunt"AI_Aggression": [100
+- AI_IntelligenceSpecifies intelligence of Grunt	"AI_Intelligence": [100
+- AI_CourageSpecifies couragesnous og Grunt	"AI_Courage": [100
+- AI_ODDSOF_IGNORING_NEARBY_GRENADES	The odds of a Grunt ignoring a player's grenade	"AI_ODDSOF_IGNORING_NEARBY_GRENADES"; [ 0
+- AI_PREFERSTOPANDSHOOT	Specifies if Grunt prefers to stop while shooting	"AI_PREFERSTOPANDSHOOT": ["false"
 
 `;
